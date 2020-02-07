@@ -1,8 +1,5 @@
 #include "Header.h"
 
-createWindow() {
-	clearscr();
-}
 
 
 void updateMas() {

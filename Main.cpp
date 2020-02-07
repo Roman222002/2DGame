@@ -1,10 +1,10 @@
 
-#include "iostream"
-using namespace std;
+#include "header.h"
 
 int main() {
 	cout << "Hello" << endl;
 }
+
 /*
 Тут головний файл програми, де є логіка першого білда ігри.
 Всі глобальні зміни лежать в хедері
