@@ -1,0 +1,3 @@
+createWindow() {
+	clearscr();
+}
