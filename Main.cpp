@@ -5,6 +5,7 @@
 
 int main() {
 	cout << "Hello" << endl;
+	updateMas();
 }
 
 /*
