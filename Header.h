@@ -2,7 +2,6 @@
 #ifndef Header
 #define Header
 
-#include <iostream>
 #include <thread>
 #include <chrono>
 

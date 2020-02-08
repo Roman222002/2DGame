@@ -9,7 +9,6 @@ void updateMas() {
 void updateMas_timer() {
 	int i = 0;
 	while (true) {
-		cout << i << endl;
 		this_thread::sleep_for(chrono::milliseconds(1000)); // затримка в 1 секунду
 		i++;
 	}
@@ -17,7 +16,7 @@ void updateMas_timer() {
 
 
 void createWindow() {
-    RenderWindow window(VideoMode(640, 480), "Заголовок"); // cтворення вікна ",Style::Fullscreen)" - повн.екр
+    RenderWindow window(VideoMode(640, 480), "Title"); // cтворення вікна ",Style::Fullscreen)" - повн.екр
     CircleShape mycircle(100.f);
     
     while (window.isOpen()) { // обов'язковий (О) цикл "Поки відкрите вікно"
